@@ -1,53 +1,167 @@
-# Fortune 500 News Scraper
+# Fortune 500 News and Financial Data Aggregator
 
-This script scrapes news articles for the top 100 Fortune 500 companies using the NewsAPI and stores the results in both CSV and Excel formats.
+## Project Overview
+
+This project is a comprehensive data aggregation system designed to collect, process, and analyze information about Fortune 500 companies from multiple sources:
+
+1. **News Data**: Articles and media mentions from NewsAPI
+2. **Financial Data**: Market performance and financial metrics
+3. **Social Media**: Sentiment and engagement metrics from social platforms
+
+The system creates a unified dataset that provides a holistic view of company performance, public perception, and market trends.
 
 ## Features
 
-- Fetches recent news articles for each of the top 100 Fortune 500 companies
-- Extracts key information including article title, source, URL, and excerpts
-- Stores results in both CSV and Excel formats for easy analysis
-- Includes progress tracking and error handling
+- **Multi-source Data Collection**: Aggregates data from news outlets, financial markets, and social media platforms
+- **Automated Processing**: Scheduled data collection and processing pipelines
+- **Data Transformation**: Converts raw data into structured formats (CSV, Excel, Parquet)
+- **Text Analysis**: Extracts key excerpts and insights from news articles
+- **Storage Optimization**: Efficient data storage using columnar formats (Parquet)
+- **Visualization Ready**: Prepared datasets for immediate analysis and visualization
 
-## Requirements
+## Data Sources
 
+### News Data (Implemented)
+- **Source**: NewsAPI
+- **Content**: Recent news articles, press releases, and media coverage
+- **Metrics**: Article count, publication sources, content excerpts
+- **Update Frequency**: Daily
+- **Storage Format**: CSV, Excel, Parquet
+
+### Financial Data (Planned)
+- **Sources**: Yahoo Finance API, Alpha Vantage, FRED
+- **Content**: Stock prices, financial statements, economic indicators
+- **Metrics**: Price movements, trading volume, P/E ratios, revenue growth
+- **Update Frequency**: Daily (market data), Quarterly (financial statements)
+- **Storage Format**: Parquet, SQL
+
+### Social Media Data (Planned)
+- **Sources**: Twitter API, Reddit API, LinkedIn
+- **Content**: Social mentions, engagement metrics, sentiment analysis
+- **Metrics**: Mention count, sentiment score, engagement rate
+- **Update Frequency**: Daily
+- **Storage Format**: Parquet, NoSQL
+
+## Technical Architecture
+
+### Data Collection Layer
+- Python scripts for API interactions
+- Authentication and rate limiting management
+- Error handling and retry logic
+
+### Processing Layer
+- Data cleaning and normalization
+- Text processing (NLP) for content analysis
+- Entity recognition and relationship mapping
+
+### Storage Layer
+- Optimized file formats (Parquet) for analytical workloads
+- Directory structure organized by data source and time
+- Metadata tracking for data lineage
+
+### Analysis Layer
+- Jupyter notebooks for exploratory analysis
+- Visualization templates for common metrics
+- Cross-source correlation analysis
+
+## Getting Started
+
+### Prerequisites
 - Python 3.7+
-- NewsAPI key (already included in the script)
-- Required Python packages (listed in requirements.txt)
+- API keys for data sources:
+  - NewsAPI key
+  - (Future) Financial data API keys
+  - (Future) Social media API keys
 
-## Installation
-
-1. Clone this repository or download the script files
-2. Install the required packages:
-
+### Installation
 ```bash
+# Clone the repository
+git clone https://github.com/yourusername/fortune500-data-aggregator.git
+cd fortune500-data-aggregator
+
+# Install dependencies
 pip install -r requirements.txt
 ```
 
-## Usage
+### Configuration
+1. Create a `.env` file with your API keys:
+```
+NEWS_API_KEY=your_newsapi_key
+# Add other API keys as the project expands
+```
 
-Simply run the script:
+2. Configure data collection parameters in `config.yaml`:
+```yaml
+news:
+  days_back: 7
+  max_articles_per_company: 10
+  
+# Add other configuration sections as needed
+```
 
+### Usage
+1. Run the news data collection:
 ```bash
 python fortune500_news_scraper.py
 ```
 
-The script will:
-1. Create a `news_results` directory if it doesn't exist
-2. Fetch news articles for each company
-3. Save the results to both CSV and Excel files in the `news_results` directory
-4. Display a summary of the results
+2. Run the Jupyter notebook for analysis:
+```bash
+jupyter notebook NewsAPIData.ipynb
+```
 
-## Customization
+## Data Dictionary
 
-You can modify the script to:
-- Change the number of days to look back for articles (default is 30)
-- Adjust the maximum number of articles per company (default is 10)
-- Update the list of companies
-- Change the search parameters
+### News Data
+| Column | Description | Data Type |
+|--------|-------------|-----------|
+| Company | Fortune 500 company name | string |
+| Article Title | Title of the news article | string |
+| Source | Publication source | string |
+| URL | Link to the original article | string |
+| Excerpt | Key excerpt from the article | string |
+| Published Date | Publication date | datetime |
 
-## Notes
+### Financial Data (Planned)
+| Column | Description | Data Type |
+|--------|-------------|-----------|
+| Company | Fortune 500 company name | string |
+| Date | Trading date | date |
+| Open | Opening price | float |
+| High | Highest price of the day | float |
+| Low | Lowest price of the day | float |
+| Close | Closing price | float |
+| Volume | Trading volume | integer |
+| Market Cap | Market capitalization | float |
 
-- The script includes a 1-second delay between API calls to avoid hitting rate limits
-- The NewsAPI has usage limits depending on your subscription plan
-- The list of Fortune 500 companies is from 2023 and may need to be updated for future use 
+### Social Media Data (Planned)
+| Column | Description | Data Type |
+|--------|-------------|-----------|
+| Company | Fortune 500 company name | string |
+| Platform | Social media platform | string |
+| Date | Date of data collection | date |
+| Mentions | Number of mentions | integer |
+| Sentiment | Average sentiment score | float |
+| Engagement | Engagement rate | float |
+
+## Future Enhancements
+
+1. **Data Integration**: Unified data model connecting news events to market movements
+2. **Predictive Analytics**: ML models to predict stock movements based on news and social sentiment
+3. **Real-time Processing**: Stream processing for immediate insights
+4. **Interactive Dashboard**: Web-based visualization platform
+5. **Automated Reports**: Scheduled report generation and distribution
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Fortune 500 for company listings
+- NewsAPI for providing news data access
+- All other data providers and open-source libraries that make this project possible
