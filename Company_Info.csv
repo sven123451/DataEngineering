@@ -1,0 +1,101 @@
+,industry,sector,fullTimeEmployees,currency,symbol,longName
+0,Discount Stores,Consumer Defensive,2100000.0,USD,WMT,Walmart Inc.
+1,Internet Retail,Consumer Cyclical,1556000.0,USD,AMZN,"Amazon.com, Inc."
+2,Consumer Electronics,Technology,150000.0,USD,AAPL,Apple Inc.
+3,Healthcare Plans,Healthcare,219000.0,USD,CVS,CVS Health Corporation
+4,Healthcare Plans,Healthcare,400000.0,USD,UNH,UnitedHealth Group Incorporated
+5,Oil & Gas Integrated,Energy,61000.0,USD,XOM,Exxon Mobil Corporation
+6,Insurance - Diversified,Financial Services,392400.0,USD,BRK-B,Berkshire Hathaway Inc.
+7,Internet Content & Information,Communication Services,183323.0,USD,GOOGL,Alphabet Inc.
+8,Medical Distribution,Healthcare,45000.0,USD,MCK,McKesson Corporation
+9,Oil & Gas Integrated,Energy,45298.0,USD,CVX,Chevron Corporation
+10,,,,EUR,ABG.BE,AmerisourceBergen Corp
+11,Discount Stores,Consumer Defensive,333000.0,USD,COST,Costco Wholesale Corporation
+12,Software - Infrastructure,Technology,228000.0,USD,MSFT,Microsoft Corporation
+13,Medical Distribution,Healthcare,47922.0,USD,CAH,"Cardinal Health, Inc."
+14,Healthcare Plans,Healthcare,71295.0,USD,CI,The Cigna Group
+15,Oil & Gas Refining & Marketing,Energy,18300.0,USD,MPC,Marathon Petroleum Corporation
+16,Oil & Gas Refining & Marketing,Energy,13200.0,USD,PSX,Phillips 66
+17,Oil & Gas Refining & Marketing,Energy,9898.0,USD,VLO,Valero Energy Corporation
+18,Auto Manufacturers,Consumer Cyclical,171000.0,USD,F,Ford Motor Company
+19,Home Improvement Retail,Consumer Cyclical,470000.0,USD,HD,"The Home Depot, Inc."
+20,Auto Manufacturers,Consumer Cyclical,162000.0,USD,GM,General Motors Company
+21,Healthcare Plans,Healthcare,104200.0,USD,ELV,"Elevance Health, Inc."
+22,Banks - Diversified,Financial Services,317233.0,USD,JPM,JPMorgan Chase & Co.
+23,Grocery Stores,Consumer Defensive,414000.0,USD,KR,The Kroger Co.
+24,Healthcare Plans,Healthcare,60500.0,USD,CNC,Centene Corporation
+25,Telecom Services,Communication Services,99600.0,USD,VZ,Verizon Communications Inc.
+26,Pharmaceutical Retailers,Healthcare,193000.0,USD,WBA,"Walgreens Boots Alliance, Inc."
+27,Discount Stores,Consumer Defensive,415000.0,USD,TGT,Target Corporation
+28,Telecom Services,Communication Services,140990.0,USD,T,AT&T Inc.
+29,Banks - Diversified,Financial Services,213000.0,USD,BAC,Bank of America Corporation
+30,Internet Content & Information,Communication Services,74067.0,USD,META,"Meta Platforms, Inc."
+31,Computer Hardware,Technology,,USD,DELL,Dell Technologies Inc.
+32,Information Technology Services,Technology,270300.0,USD,IBM,International Business Machines Corporation
+33,Electronics & Computer Distribution,Technology,23000.0,USD,SNX,TD SYNNEX Corporation
+34,Banks - Diversified,Financial Services,226710.0,USD,C,Citigroup Inc.
+35,Telecom Services,Communication Services,182000.0,USD,CMCSA,Comcast Corporation
+36,Beverages - Non-Alcoholic,Consumer Defensive,319000.0,USD,PEP,"PepsiCo, Inc."
+37,Home Improvement Retail,Consumer Cyclical,300000.0,USD,LOW,"Lowe's Companies, Inc."
+38,Household & Personal Products,Consumer Defensive,108000.0,USD,PG,The Procter & Gamble Company
+39,Semiconductors,Technology,108900.0,USD,INTC,Intel Corporation
+40,Drug Manufacturers - General,Healthcare,138100.0,USD,JNJ,Johnson & Johnson
+41,Banks - Diversified,Financial Services,217000.0,USD,WFC,Wells Fargo & Company
+42,Drug Manufacturers - General,Healthcare,81000.0,USD,PFE,Pfizer Inc.
+43,Grocery Stores,Consumer Defensive,108300.0,USD,ACI,"Albertsons Companies, Inc."
+44,Entertainment,Communication Services,177080.0,USD,DIS,The Walt Disney Company
+45,Food Distribution,Consumer Defensive,76000.0,USD,SYY,Sysco Corporation
+46,Healthcare Plans,Healthcare,65680.0,USD,HUM,Humana Inc.
+47,Integrated Freight & Logistics,Industrials,306000.0,USD,FDX,FedEx Corporation
+48,Aerospace & Defense,Industrials,186000.0,USD,RTX,RTX Corporation
+49,Computer Hardware,Technology,58000.0,USD,HPQ,HP Inc.
+50,Aerospace & Defense,Industrials,172000.0,USD,BA,The Boeing Company
+51,Farm Products,Consumer Defensive,42383.0,USD,ADM,Archer-Daniels-Midland Company
+52,Farm & Heavy Construction Machinery,Industrials,112900.0,USD,CAT,Caterpillar Inc.
+53,Aerospace & Defense,Industrials,121000.0,USD,LMT,Lockheed Martin Corporation
+54,Capital Markets,Financial Services,80000.0,USD,MS,Morgan Stanley
+55,Chemicals,Basic Materials,36000.0,USD,DOW,Dow Inc.
+56,Auto Manufacturers,Consumer Cyclical,125665.0,USD,TSLA,"Tesla, Inc."
+57,Aerospace & Defense,Industrials,53000.0,USD,GE,GE Aerospace
+58,Medical Care Facilities,Healthcare,226000.0,USD,HCA,"HCA Healthcare, Inc."
+59,Capital Markets,Financial Services,46500.0,USD,GS,"The Goldman Sachs Group, Inc."
+60,Oil & Gas Midstream,Energy,16248.0,USD,ET,Energy Transfer LP
+61,Farm Products,Consumer Defensive,138000.0,USD,TSN,"Tyson Foods, Inc."
+62,Communication Equipment,Technology,90400.0,USD,CSCO,"Cisco Systems, Inc."
+63,Telecom Services,Communication Services,94500.0,USD,CHTR,"Charter Communications, Inc."
+64,Drug Manufacturers - General,Healthcare,55000.0,USD,ABBV,AbbVie Inc.
+65,Insurance - Property & Casualty,Financial Services,,USD,PGR,The Progressive Corporation
+66,Insurance - Property & Casualty,Financial Services,55000.0,USD,ALL,The Allstate Corporation
+67,Specialty Retail,Consumer Cyclical,85000.0,USD,BBY,"Best Buy Co., Inc."
+68,Drug Manufacturers - General,Healthcare,,USD,MRK,"Merck & Co., Inc."
+69,Apparel Retail,Consumer Cyclical,,USD,TJX,"The TJX Companies, Inc."
+70,Oil & Gas E&P,Energy,11800.0,USD,COP,ConocoPhillips
+71,Footwear & Accessories,Consumer Cyclical,79400.0,USD,NKE,"NIKE, Inc."
+72,Oil & Gas Midstream,Energy,,USD,EPD,Enterprise Products Partners L.P.
+73,Aerospace & Defense,Industrials,117000.0,USD,GD,General Dynamics Corporation
+74,Credit Services,Financial Services,75100.0,USD,AXP,American Express Company
+75,Insurance - Life,Financial Services,37936.0,USD,PRU,"Prudential Financial, Inc."
+76,Beverages - Non-Alcoholic,Consumer Defensive,69700.0,USD,KO,The Coca-Cola Company
+77,Drug Manufacturers - General,Healthcare,34100.0,USD,BMY,Bristol-Myers Squibb Company
+78,Farm & Heavy Construction Machinery,Industrials,35200.0,USD,DE,Deere & Company
+79,Diagnostics & Research,Healthcare,125000.0,USD,TMO,Thermo Fisher Scientific Inc.
+80,Conglomerates,Industrials,102000.0,USD,HON,Honeywell International Inc.
+81,Packaged Foods,Consumer Defensive,36000.0,USD,KHC,The Kraft Heinz Company
+82,Restaurants,Consumer Cyclical,361000.0,USD,SBUX,Starbucks Corporation
+83,Semiconductors,Technology,49000.0,USD,QCOM,QUALCOMM Incorporated
+84,Medical Devices,Healthcare,114000.0,USD,ABT,Abbott Laboratories
+85,Semiconductors,Technology,48000.0,USD,MU,"Micron Technology, Inc."
+86,Electronic Components,Technology,138000.0,USD,JBL,Jabil Inc.
+87,Semiconductors,Technology,37000.0,USD,AVGO,Broadcom Inc.
+88,Steel,Basic Materials,32700.0,USD,NUE,Nucor Corporation
+89,Diagnostics & Research,Healthcare,61000.0,USD,DHR,Danaher Corporation
+90,Integrated Freight & Logistics,Industrials,254360.0,USD,UPS,"United Parcel Service, Inc."
+91,Entertainment,Communication Services,18600.0,USD,PARA,Paramount Global
+92,Banks - Regional,Financial Services,70263.0,USD,USB,U.S. Bancorp
+93,Confectioners,Consumer Defensive,90000.0,USD,MDLZ,"Mondelez International, Inc."
+94,Tobacco,Consumer Defensive,83100.0,USD,PM,Philip Morris International Inc.
+95,Residential Construction,Consumer Cyclical,13265.0,USD,LEN,Lennar Corporation
+96,Oil & Gas E&P,Energy,13323.0,USD,OXY,Occidental Petroleum Corporation
+97,Utilities - Regulated Electric,Utilities,28314.0,USD,SO,The Southern Company
+98,Utilities - Regulated Electric,Utilities,16800.0,USD,NEE,"NextEra Energy, Inc."
+99,Oil & Gas Midstream,Energy,,USD,PAGP,"Plains GP Holdings, L.P."
