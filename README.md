@@ -1,23 +1,24 @@
 # Fortune 500 News and Financial Data Aggregator
 
 ## Project Overview
-
-This project is a comprehensive data aggregation system designed to collect, process, and analyze information about Fortune 500 companies from multiple sources:
-
-1. **News Data**: Articles and media mentions from NewsAPI
-2. **Financial Data**: Market performance and financial metrics
-3. **Social Media**: Sentiment and engagement metrics from social platforms
-
-The system creates a unified dataset that provides a holistic view of company performance, public perception, and market trends.
+This project collects and analyzes data from multiple sources about Fortune 500 companies, including:
+- News articles from NewsAPI
+- Financial metrics (planned)
+- Social media sentiment (planned)
 
 ## Features
+- Multi-source data collection
+- Automated processing
+- Data transformation and cleaning
+- Text analysis capabilities
+- Storage optimization (CSV, Excel, Parquet)
+- Visualization-ready datasets
 
-- **Multi-source Data Collection**: Aggregates data from news outlets, financial markets, and social media platforms
-- **Automated Processing**: Scheduled data collection and processing pipelines
-- **Data Transformation**: Converts raw data into structured formats (CSV, Excel, Parquet)
-- **Text Analysis**: Extracts key excerpts and insights from news articles
-- **Storage Optimization**: Efficient data storage using columnar formats (Parquet)
-- **Visualization Ready**: Prepared datasets for immediate analysis and visualization
+## Usage
+Run the Jupyter notebook `NewsAPIData.ipynb` to collect news data about Fortune 500 companies.
+
+## Requirements
+See `requirements.txt` for dependencies.
 
 ## Data Sources
 
@@ -165,3 +166,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 - Fortune 500 for company listings
 - NewsAPI for providing news data access
 - All other data providers and open-source libraries that make this project possible
+
